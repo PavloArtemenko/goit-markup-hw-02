@@ -103,12 +103,9 @@ text-align: center
     background-color: #4D5AE5;
 }
 
+.hero-btn :focus
 .hero-btn :hover {
-    background-color: #404BBF
-}
-
-.hero-btn :focus {
-    background-color: #404BBF
+color: #404BBF
 }
 
 .business-info-strategy{
