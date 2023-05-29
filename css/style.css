@@ -23,6 +23,7 @@ list-style: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4D5AE5;
+    text-transform: uppercase
 }
 
 .header-logo-web {
@@ -33,6 +34,7 @@ list-style: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #2E2F42;
+    text-transform: uppercase
 }
 
 .header-menu {
