@@ -217,7 +217,7 @@ color: #F4F4FD;
     background-color: #F4F4FD;
 }
 
-.aplication-btn-all :hover :focus{
+.aplication-btn-all:is(:hover, :focus) {
 color: #FFFFFF;
 background-color: #404BBF
 }
