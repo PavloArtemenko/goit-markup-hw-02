@@ -92,10 +92,15 @@ text-align: center
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    background-color: #4D5AE5;
 }
 
-.hero-btn :hover, :focus {
-color: #404BBF
+.hero-btn :hover {
+    background-color: #404BBF
+}
+
+.hero-btn :focus {
+    background-color: #404BBF
 }
 
 .business-info-strategy{
