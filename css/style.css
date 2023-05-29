@@ -37,6 +37,10 @@ list-style: none;
     text-transform: uppercase
 }
 
+.header-contacts {
+    font-style: normal
+}
+
 .header-menu {
 font-style: normal;
 font-weight: 500;
