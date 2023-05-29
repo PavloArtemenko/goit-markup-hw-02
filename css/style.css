@@ -67,19 +67,25 @@ color: #404bbf;
 .header-contacts-item :hover, :focus {
     color: #404BBF;
 }
+
+.hero {
+background-color: #2e2f42;
+}
+
 .hero-title {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 56px;
-line-height: 3.33;
+line-height: 1.07;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 background: #2E2F42;
+text-align: center
 }
 
 .hero-btn {
-    font-family: 'Roboto';
+    font-family: 'Roboto' sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -87,6 +93,10 @@ background: #2E2F42;
     color: #FFFFFF;
     cursor: pointer;
     background-color: #4D5AE5;
+}
+
+.hero-btn :hover, :focus {
+background-color: #404BBF
 }
 
 .business-info-strategy{
