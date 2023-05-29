@@ -138,8 +138,11 @@ background-color: #F4F4FD;
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: center
-    text-transform: capitalize
-    background-color: #FFFFFF
+
+}
+
+.team-title{
+text-align: center
 }
 
 .team-list-name {
