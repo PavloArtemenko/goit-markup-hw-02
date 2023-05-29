@@ -122,9 +122,14 @@ color: #434455;
 .service-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 2.22;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-align: center
+}
+
+.service-title {
+text-transform: capitalize
 }
 
 .team{
