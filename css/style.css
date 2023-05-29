@@ -103,7 +103,7 @@ text-align: center
     background-color: #4D5AE5;
 }
 
-.hero-btn:is(:hover :focus){
+.hero-btn:is(:hover, :focus){
     background-color: #404BBF
 }
 
