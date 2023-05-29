@@ -169,18 +169,18 @@ color: #F4F4FD;
 }
 
 .aplication-btn-all {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color:  #FFFFFF;
+    color:  #4d5ae5;
     cursor: pointer;
-    background-color: #404BBF;
+    background-color: #F4F4FD;
 }
 
-.aplication-btn {
-font-family: 'Roboto';
+.aplication-click {
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
