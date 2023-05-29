@@ -144,10 +144,14 @@ background-color: #F4F4FD;
 text-transform: capitalize
 }
 
+.team-list {
+    background-color: #FFFFFF
+}
+
 .team-list-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.33;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -155,7 +159,7 @@ text-transform: capitalize
 .team-list-job {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.33;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
