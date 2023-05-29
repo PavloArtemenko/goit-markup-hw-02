@@ -132,7 +132,7 @@ color: #434455;
 text-transform: capitalize
 }
 
-.team{
+.team {
 background-color: #F4F4FD;
 }
 
@@ -219,7 +219,7 @@ background-color: #404BBF
 }
 
 
-.aplication-btn {
+.aplication-click {
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -230,13 +230,6 @@ cursor: pointer;
 background-color: #F4F4FD;
 }
 
-.aplication-btn :hover :focus {
-color: #FFFFFF
-}
-
-.aplication-btn :hover :focus {
-background-color: #404BBF;
-}
 
 .aplication-text {
     font-weight: 500;
