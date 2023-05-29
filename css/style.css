@@ -112,7 +112,8 @@ text-align: center
 }
 
 .business-info-idea{
-font-weight: 400;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
 font-size: 16px;
 line-height: 1.5px;
 letter-spacing: 0.02em;
