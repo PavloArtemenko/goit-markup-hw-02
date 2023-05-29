@@ -230,6 +230,13 @@ cursor: pointer;
 background-color: #F4F4FD;
 }
 
+.aplication-btn :hover :focus {
+color: #FFFFFF
+}
+
+.aplication-btn :hover :focus {
+background-color: #404BBF;
+}
 
 .aplication-text {
     font-weight: 500;
