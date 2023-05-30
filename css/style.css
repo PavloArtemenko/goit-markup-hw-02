@@ -59,8 +59,7 @@ color: var(--Dark-color);
 color: var(--Dark-color);
 }
 
-.header-menu-item:hover,
-.header-menu-item:focus {
+.header-menu-link:is(:hover, :focus) {
 color: var(--state-color);
 }
 
