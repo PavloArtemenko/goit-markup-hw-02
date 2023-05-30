@@ -35,7 +35,7 @@ list-style: none;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--Pressed-state-color);
+    color: var(--Primary-Brand-color);
     text-transform: uppercase
 }
 
@@ -159,7 +159,7 @@ background-color: var(--White-background-color);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--Dark);
+    color: var(--Dark-color);
 }
 
 .team-list-job {
