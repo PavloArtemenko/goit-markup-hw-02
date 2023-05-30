@@ -1,11 +1,24 @@
-body{
-font-family: 'Roboto', sans-serif;
-color: #434455;
-background-color: #ffffff
-}
-
 :root{
     --logo-style: "Raleway", sans-serif;
+    --Primary-Brand: color: #4D5AE5;
+    --Pressed-state: color: #404BBF;
+    --Dark: color: #2E2F42;
+    --Success: color: #31D0AA;
+    --Text: color: #434455;
+    --Subtle-Txt: color: #8E8F99;
+    --Accent: color: #E7E9FC;
+    --Light: color: #F4F4FD;
+    --Modal-overlay: color: #2E2F42;
+    --Hero-background: color: #2E2F42;
+    --White-background: color: #FFFFFF;
+    --Modal-background: color: #FCFCFC;
+
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+color: var(--Text);
+background-color: var(--White-background);
 }
 
 .link{
@@ -18,24 +31,16 @@ list-style: none;
 
 .header-logo {
     font-family: var(--logo-style);
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #4D5AE5;
+    color: var(--Pressed-state);
     text-transform: uppercase
 }
 
 .header-logo-web {
-    font-family: var(--logo-style);
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: #2E2F42;
-    text-transform: uppercase
+    color: var(--Dark);
 }
 
 .header-contacts {
@@ -48,47 +53,43 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2e2f42;
+color: var(--Dark);
 }
 
 .header-menu-link {
-color: #2e2f42;
+color: var(--Dark);
 }
 
 .header-menu :hover {
-color: #404bbf;
+color: var(--Pressed-state);
 }
 
 .header-contacts-item {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455;
+    color: var(--Text);
 }
 
 .header-contacts-link {
-    color: #434455;
+    color: var(--Text);
     }
 
-.header-contacts-item :hover, :focus {
-    color: #404BBF;
+.header-contacts-item:is(:hover, :focus) {
+    color: var(--Pressed-state);;
 }
 
 .hero {
-background-color: #2e2f42;
+background-color: var(--Dark);
 }
 
 .hero-title {
 font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
-color: #FFFFFF;
-background: #2E2F42;
+color: var(--White-background);
+background: var(--Dark);
 text-align: center
 }
 
@@ -98,13 +99,13 @@ text-align: center
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--White-background);
     cursor: pointer;
-    background-color: #4D5AE5;
+    background-color: var(--Primary-Brand);
 }
 
 .hero-btn:is(:hover, :focus){
-    background-color: #404BBF
+    background-color: var(--Pressed-state);
 }
 
 .business-info-strategy{
@@ -112,23 +113,21 @@ text-align: center
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--Dark);
 }
 
 .business-info-idea{
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--Text);
 }
 
 .service-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--Dark);
     text-align: center
 }
 
@@ -137,15 +136,14 @@ text-transform: capitalize
 }
 
 .team{
-background-color: #F4F4FD;
+background-color: var(--Light);
 }
 
 .team-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--Dark);
     text-align: center
 }
 
@@ -154,7 +152,7 @@ text-transform: capitalize
 }
 
 .team-list-member {
-background-color: #FFFFFF
+background-color: var(--White-background);
 }
 
 .team-list-name {
@@ -162,48 +160,39 @@ background-color: #FFFFFF
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--Dark);
 }
 
 .team-list-job {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--Text);
 }
 
 .footer{
-background-color: #2E2F42;
+background-color: var(--Dark);
 }
 
 .footer-logo {
     font-family: var(--logo-style);
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #4D5AE5;
+    color: var(--Primary-Brand);
     text-transform: uppercase
 }
 
 .footer-logo-web {
-    font-family: var(--logo-style);
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: #F4F4FD;
+    color: var(--Light);;
 }
 
 .footer-text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
-color: #F4F4FD;
+color: var(--Light);;
 }
 
 .aplication-btn-all {
@@ -212,14 +201,14 @@ color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color:  #4d5ae5;
+    color:  var(--Primary-Brand);
     cursor: pointer;
-    background-color: #F4F4FD;
+    background-color: var(--Light);
 }
 
 .aplication-btn-all:is(:hover, :focus) {
-color: #FFFFFF;
-background-color: #404BBF
+color: var(--White-background);
+background-color: var(--Pressed-state);
 }
 
 .aplication-text {
@@ -227,12 +216,11 @@ background-color: #404BBF
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--Dark);
 }
 .aplication-post {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--Text);
 }
