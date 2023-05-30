@@ -75,7 +75,7 @@ color: var(--state-color);
     }
 
 .header-contacts-item:is(:hover, :focus) {
-    color: var(--state-color);;
+    color: var(--state-color);
 }
 
 .hero {
