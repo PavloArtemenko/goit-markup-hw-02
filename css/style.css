@@ -5,8 +5,7 @@ background-color: #ffffff
 }
 
 :root{
-    font-family: "Raleway", sans-serif;
-    color: #4D5AE5;
+    --logo-style: "Raleway", sans-serif;
 }
 
 .link{
@@ -18,7 +17,7 @@ list-style: none;
 }
 
 .header-logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--logo-style);
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -29,7 +28,7 @@ list-style: none;
 }
 
 .header-logo-web {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--logo-style);
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
