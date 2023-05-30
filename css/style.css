@@ -1,8 +1,8 @@
 :root{
     --logo-style: "Raleway", sans-serif;
-    --Primary-Brand: color: #4D5AE5;
-    --Pressed-state: color: #404BBF;
-    --Dark: color: #2E2F42;
+    --Primary-Brand-color: #4D5AE5;
+    --Pressed-state-color: #404BBF;
+    --Dark-color: #2E2F42;
     --Success: color: #31D0AA;
     --Text: color: #434455;
     --Subtle-Txt: color: #8E8F99;
@@ -35,12 +35,12 @@ list-style: none;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--Pressed-state);
+    color: var(--Pressed-state-color);
     text-transform: uppercase
 }
 
 .header-logo-web {
-    color: var(--Dark);
+    color: var(--Dark-color);
 }
 
 .header-contacts {
@@ -53,15 +53,15 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--Dark);
+color: var(--Dark-color);
 }
 
 .header-menu-link {
-color: var(--Dark);
+color: var(--Dark-color);
 }
 
 .header-menu :hover {
-color: var(--Pressed-state);
+color: var(--Pressed-state-color);
 }
 
 .header-contacts-item {
@@ -76,11 +76,11 @@ color: var(--Pressed-state);
     }
 
 .header-contacts-item:is(:hover, :focus) {
-    color: var(--Pressed-state);;
+    color: var(--Pressed-state-color);;
 }
 
 .hero {
-background-color: var(--Dark);
+background-color: var(--Dark-color);
 }
 
 .hero-title {
@@ -101,7 +101,7 @@ text-align: center
     letter-spacing: 0.04em;
     color: var(--White-background);
     cursor: pointer;
-    background-color: var(--Primary-Brand);
+    background-color: var(--Primary-Brand-color);
 }
 
 .hero-btn:is(:hover, :focus){
