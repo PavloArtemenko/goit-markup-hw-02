@@ -1,7 +1,7 @@
 :root{
     --logo-style: "Raleway", sans-serif;
     --Primary-Brand-color: #4D5AE5;
-    --Pressed-state-color: #404BBF;
+    --state-color: #404BBF;
     --Dark-color: #2E2F42;
     --Success-color: #31D0AA;
     --Txt-color: #434455;
@@ -60,7 +60,7 @@ color: var(--Dark-color);
 }
 
 .header-menu :hover {
-color: var(--Pressed-state-color);
+color: var(--state-color);
 }
 
 .header-contacts-item {
@@ -75,7 +75,7 @@ color: var(--Pressed-state-color);
     }
 
 .header-contacts-item:is(:hover, :focus) {
-    color: var(--Pressed-state-color);;
+    color: var(--state-color);;
 }
 
 .hero {
@@ -104,7 +104,7 @@ text-align: center
 }
 
 .hero-btn:is(:hover, :focus) {
-    background-color: var(--Pressed-state-color);
+    background-color: var(--state-color);
 }
 
 .business-info-strategy {
@@ -207,7 +207,7 @@ color: var(--Light-color);
 
 .aplication-btn-all:is(:hover, :focus) {
 color: var(--White-background-color);
-background-color: var(--Pressed-state-color);
+background-color: var(--state-color);
 }
 
 .aplication-text {
