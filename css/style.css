@@ -12,6 +12,7 @@
     --Hero-background-color: #2E2F42;
     --White-background-color: #FFFFFF;
     --Modal-background-color: #FCFCFC;
+
 }
 
 body{
@@ -58,7 +59,7 @@ color: var(--Dark-color);
 color: var(--Dark-color);
 }
 
-.header-menu-link:is(:hover, :focus) {
+.header-menu :hover {
 color: var(--state-color);
 }
 
