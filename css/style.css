@@ -3,22 +3,22 @@
     --Primary-Brand-color: #4D5AE5;
     --Pressed-state-color: #404BBF;
     --Dark-color: #2E2F42;
-    --Success: color: #31D0AA;
-    --Text: color: #434455;
-    --Subtle-Txt: color: #8E8F99;
-    --Accent: color: #E7E9FC;
-    --Light: color: #F4F4FD;
-    --Modal-overlay: color: #2E2F42;
-    --Hero-background: color: #2E2F42;
-    --White-background: color: #FFFFFF;
-    --Modal-background: color: #FCFCFC;
+    --Success-color: #31D0AA;
+    --Text-color: #434455;
+    --Subtle-Txt-color: #8E8F99;
+    --Accent-color: #E7E9FC;
+    --Light-color: #F4F4FD;
+    --Modal-overlay-color: #2E2F42;
+    --Hero-background-color: #2E2F42;
+    --White-background-color: #FFFFFF;
+    --Modal-background-color: #FCFCFC;
 
 }
 
 body{
 font-family: 'Roboto', sans-serif;
 color: var(--Text);
-background-color: var(--White-background);
+background-color: var(--White-background-color);
 }
 
 .link{
@@ -48,7 +48,6 @@ list-style: none;
 }
 
 .header-menu {
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -68,11 +67,11 @@ color: var(--Pressed-state-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--Text);
+    color: var(--Text-color);
 }
 
 .header-contacts-link {
-    color: var(--Text);
+    color: var(--Text-color);
     }
 
 .header-contacts-item:is(:hover, :focus) {
@@ -88,8 +87,8 @@ font-family: 'Roboto';
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
-color: var(--White-background);
-background: var(--Dark);
+color: var(--White-background-color);
+background: var(--Dark-color);
 text-align: center
 }
 
@@ -99,35 +98,35 @@ text-align: center
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--White-background);
+    color: var(--White-background-color);
     cursor: pointer;
     background-color: var(--Primary-Brand-color);
 }
 
-.hero-btn:is(:hover, :focus){
-    background-color: var(--Pressed-state);
+.hero-btn:is(:hover, :focus) {
+    background-color: var(--Pressed-state-color);
 }
 
-.business-info-strategy{
+.business-info-strategy {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--Dark);
+    color: var(--Dark-color);
 }
 
 .business-info-idea{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--Text);
+color: var(--Text-color);
 }
 
 .service-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    color: var(--Dark);
+    color: var(--Dark-color);
     text-align: center
 }
 
@@ -136,14 +135,14 @@ text-transform: capitalize
 }
 
 .team{
-background-color: var(--Light);
+background-color: var(--Light-color);
 }
 
 .team-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    color: var(--Dark);
+    color: var(--Dark-color);
     text-align: center
 }
 
@@ -152,7 +151,7 @@ text-transform: capitalize
 }
 
 .team-list-member {
-background-color: var(--White-background);
+background-color: var(--White-background-color);
 }
 
 .team-list-name {
@@ -167,11 +166,11 @@ background-color: var(--White-background);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--Text);
+    color: var(--Text-color);
 }
 
 .footer{
-background-color: var(--Dark);
+background-color: var(--Dark-color);
 }
 
 .footer-logo {
@@ -180,19 +179,19 @@ background-color: var(--Dark);
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--Primary-Brand);
+    color: var(--Primary-Brand-color);
     text-transform: uppercase
 }
 
 .footer-logo-web {
-    color: var(--Light);;
+    color: var(--Light-color);
 }
 
 .footer-text {
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
-color: var(--Light);;
+color: var(--Light-color);
 }
 
 .aplication-btn-all {
@@ -201,14 +200,14 @@ color: var(--Light);;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color:  var(--Primary-Brand);
+    color:  var(--Primary-Brand-color);
     cursor: pointer;
-    background-color: var(--Light);
+    background-color: var(--Light-color);
 }
 
 .aplication-btn-all:is(:hover, :focus) {
-color: var(--White-background);
-background-color: var(--Pressed-state);
+color: var(--White-background-color);
+background-color: var(--Pressed-state-color);
 }
 
 .aplication-text {
@@ -216,11 +215,11 @@ background-color: var(--Pressed-state);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--Dark);
+    color: var(--Dark-color);
 }
 .aplication-post {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--Text);
+    color: var(--Text-color);
 }
