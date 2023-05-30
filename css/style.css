@@ -59,7 +59,7 @@ color: var(--Dark-color);
 color: var(--Dark-color);
 }
 
-.header-menu:is(:hover, :focus) {
+.header-menu :hover {
 color: var(--Pressed-state-color);
 }
 
