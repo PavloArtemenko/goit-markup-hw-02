@@ -74,7 +74,7 @@ color: var(--state-color);
     color: var(--Txt-color);
     }
 
-.header-contacts-item:is(:hover, :focus) {
+.header-contacts-link:is(:hover, :focus) {
     color: var(--state-color);
 }
 
