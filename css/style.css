@@ -29,6 +29,10 @@ text-decoration: none;
 list-style: none;
 }
 
+
+/** ---------HEADER-------- */
+
+
 .header-logo {
     font-family: var(--logo-style);
     font-weight: 800;
@@ -78,6 +82,10 @@ color: var(--state-color);
     color: var(--state-color);
 }
 
+
+/** ---------------HERO------------ */
+
+
 .hero {
 background-color: var(--Dark-color);
 }
@@ -107,6 +115,10 @@ text-align: center
     background-color: var(--state-color);
 }
 
+
+/** ----------------BUSINESS------------- */
+
+
 .business-info-strategy {
     font-weight: 500;
     font-size: 20px;
@@ -122,6 +134,10 @@ letter-spacing: 0.02em;
 color: var(--Txt-color);
 }
 
+
+/** --------------SERVICE------------- */
+
+
 .service-title {
     font-size: 36px;
     line-height: 1.11;
@@ -133,6 +149,10 @@ color: var(--Txt-color);
 .service-title {
 text-transform: capitalize
 }
+
+
+/** ---------------------TEAM------------------- */
+
 
 .team{
 background-color: var(--Light-color);
@@ -169,6 +189,10 @@ background-color: var(--White-background-color);
     color: var(--Txt-color);
 }
 
+
+/** ---------------------FOOTER--------------- */
+
+
 .footer{
 background-color: var(--Dark-color);
 }
@@ -193,6 +217,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--Light-color);
 }
+
+
+/** ---------------------------PORTFOLIO--------------------*/
+
 
 .aplication-btn-all {
     font-family: 'Roboto', sans-serif;
